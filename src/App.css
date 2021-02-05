@@ -27,7 +27,45 @@
 .App-link {
   color: #61dafb;
 }
-
+.modal.sign-in,.modal.sign-up{
+  display:block;
+}
+.modal.sign-in .sign-in{
+  display: block;
+}
+.modal.sign-up .sign-up{
+  display: block;
+}
+#w3lssbmincart.check-out-cart-wrap{
+  position: unset;
+  width: 50%;
+}
+#w3lssbmincart.check-out-cart-wrap .sbmincart-subtotal{
+  margin: 10px 0;
+}
+#w3lssbmincart.check-out-cart-wrap .sbmincart-subtotal.radio-wrap input{
+  margin:0 10px;
+}
+#w3lssbmincart.active{
+  display: block;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #000;
+}
+.cart .cart_count{
+  position: absolute;
+    right: 0;
+    top: 0;
+    /* font-size: 1.5rem; */
+    color: #fff;
+    font-weight: bold;
+}
+.flexslider .slides{
+  list-style-type: none;
+}
+#w3lssbmincart .sbmincart-item{
+  border-bottom: 1px solid;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
